@@ -1,0 +1,12 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: aatah
+ * Creation Date: May 10, 2020 at 12:26:30 PM
+ *********************************************/
+nRange = 6;
+ 
+SheetConnection data("data.xlsx");
+ 
+y from SheetRead(data, "'Blocks'!H2:H7");
+
+D from SheetRead(data, "'Blocks'!B2:G7");
